@@ -117,7 +117,7 @@ print_table(conn, database)
 if conn is not None:
     print('Connected Successfully')
     # select_product_by_price_quantity(conn, 100, 5)
-    search_func(conn, 'Toy' )
+    search_func(conn, '%toy%' )
     # update_quantity_by_id(conn, (3, 10))
     # update_quantity_by_id(conn, (2, 5))
     # update_price_by_id(conn, (80, 3))
@@ -140,3 +140,5 @@ if conn is not None:
     # add_product(conn, ('Toy', 'Spider-Man', 780, 2))
     # add_product(conn, ('Toy', 'Super-Man', 780, 1))
     # add_product(conn, ('Toy', 'Iron-Man', 780, 3))
+    # add_product(conn, ('Toy_Soft', 'Bad_Women', 600, 3))
+
